@@ -23,10 +23,6 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-from google3.pyglib import app
-from google3.pyglib import flags
-from google3.pyglib import logging
-
 import pdb
 import os
 
@@ -40,8 +36,6 @@ import models
 from third_party import dataset
 import util
 
-FLAGS = flags.FLAGS
-#print (FLAGS)
 
 def main(argv):
   del argv  # Unused.
@@ -106,7 +100,7 @@ def main(argv):
   # SET UP GRAPH
   #################
 
-  tf.reset_default_graph()  # TODO(teganm): is this necessary?
+  tf.reset_default_graph()  #
 
   with tf.device('/' + device + ':0'):
     #################
