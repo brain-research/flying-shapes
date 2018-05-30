@@ -64,3 +64,7 @@ This dataset is extended from code released along with the following paper:
   year      = {2015}
 }
 ```
+
+### Disclaimer
+
+Disclaimer: This is not an official Google product.
